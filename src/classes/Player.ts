@@ -24,7 +24,7 @@ export class Player extends Actor {
     }
 
     // 十字キー入力
-    const c: Types.Input.Keyboard.CursorKeys | undefined = this.cursors;
+    const arrow: Types.Input.Keyboard.CursorKeys | undefined = this.cursors;
 
     // w a s d キー入力
     const s: boolean = scene.input.keyboard.addKey('S').isDown;
